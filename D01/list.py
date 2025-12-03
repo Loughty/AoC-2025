@@ -1,4 +1,4 @@
-rotations = [\
+rotations = [
 46,
 -11,
 26,
@@ -4777,5 +4777,3 @@ rotations = [\
 -34,
 31,
 ]
-
-print(rotations)

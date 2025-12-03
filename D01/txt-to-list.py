@@ -7,7 +7,8 @@ with open("input.txt", "r") as archivo:
 print(contenido)
 
 with open('list.py', 'w') as lista:
-    lista.write("rotations = [\\")
+#    lista.write("rotations = [\\")
+    lista.write("rotations = [")
     lista.write("\n")
     for x in contenido:
         if x == 'L': lista.write("-")
