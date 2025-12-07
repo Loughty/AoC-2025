@@ -1,5 +1,14 @@
-# esta solucion creo que me puede dar el resultado correcto
-# pero creo que está redondeando mal, el resultado que da es 64
+## THIS SOLUTION IS NOT WORKING FOR DAY 01 PART II
+## PROBABLY THE REASON IS AROUND THE WAY IT COUNTS THE CEROS...
+## ... WHEN IT ALREADY ON DIAL 0, CHECK THAT AND FIX IT
+
+## if i leave it at it is, the answer give a number too hight
+
+## if i subtract 1 to the cero count, it gives a number too low
+
+## if i subtract or sum depending if is positive or negative...
+## ... the result is almost the same has the first test, but...
+## ... with slighly higher number
 
 dial  = 50
 ceros = 0
@@ -37,8 +46,3 @@ for x in list.rotations:
         while dial < 0: dial = dial + 100
 
 print("total of ceros: ", ceros)
-
-## dice que la respuesta no es correcta
-## que es muy alta...
-## el ejemplo que dan no es suficiente
-## así que no me molestare en adivinar
