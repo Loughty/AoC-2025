@@ -1,5 +1,4 @@
-# esta solucion creo que me puede dar el resultado correcto
-# pero creo que está redondeando mal, el resultado que da es 64
+## THIS IS THE WORKING SOLUTION FOR DAY 01 PART I
 
 dial  = 50
 ceros = 0
